@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Fruitland Freshie Co.</title>
+    <link rel="stylesheet" href="freshie.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1><a href="index.html">Fruitland Freshie Co.</a></h1>
+            <p class="tagline">A little sweetness for every space!</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="freshies.html">Freshies</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main class="contact-page">
+
+            <section class="contact-hero">
+                <h1>Let's Chat, Freshie Friend!</h1>
+                <p>
+                    Have a question, a custom idea, or need help finding
+                    your next favorite scent? We'd love to hear from you!
+                    Send us a message below and we'll get back to you.
+                </p>
+            </section>
+
+            <section class="contact-form-section">
+
+                <div class="contact-form-heading">
+                    <h2>Send Us a Message!</h2>
+                    <p>Fill out the form below and we'll be in touch soon.</p>
+                </div>
+
+                <form action="https://formsubmit.co/dkcarias@asu.edu"
+                      method="POST">
+
+                    <!-- Email subject -->
+                    <input type="hidden" name="_subject"
+                           value="New Fruitland Freshie Co. Inquiry!">
+
+                    <!-- Email layout -->
+                    <input type="hidden" name="_template"
+                           value="table">
+
+                    <!-- Spam protection honeypot -->
+                    <input type="text" name="_honey"
+                           style="display:none">
+
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name"
+                               placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email"
+                               placeholder="Enter your email address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">What Can We Help With?</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Choose a topic</option>
+                            <option value="General Question">General Question</option>
+                            <option value="Custom Freshie Inquiry">Custom Freshie Inquiry</option>
+                            <option value="Scent Question">Scent Question</option>
+                            <option value="Product Inquiry">Product Inquiry</option>
+                            <option value="Other">Something Else</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="hidden" name="_replyto" value="%email%">
+                        <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message"
+                                  rows="6"
+                                  placeholder="Tell us what's on your mind..."
+                                  required></textarea>
+                    </div>
+
+                    <button type="submit" class="contact-submit">
+                        Send My Message!
+                    </button>
+
+                </form>
+            </section>
+
+            <section class="contact-facebook">
+                <h2>Prefer Facebook?</h2>
+                <p>
+                    You can also send us a message directly on Facebook.
+                    We'd love to connect with you!
+                </p>
+                <a href="https://www.facebook.com/p/Fruitland-Freshie-Co-61590913802650/"
+                   target="_blank" rel="noopener noreferrer"
+                   class="facebook-button">
+                    Find Us on Facebook!
+                </a>
+            </section>
+
+        </main>
+
+            <footer>
+                <div class="footer-content">
+
+                    <div class="footer-brand">
+                        <h3>Fruitland Freshie Co.</h3>
+                        <p>A little sweetness for every space!</p>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Explore</h4>
+                        <a href="index.html">Home</a>
+                        <a href="freshies.html">Freshies</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+
+                    <div class="footer-contact">
+                        <h4>Let's Connect!</h4>
+                        <p>Have a question or looking for your next favorite freshie?</p>
+
+                        <a href="contact.html" class="footer-button">
+                            Contact Us!
+                        </a>
+
+                        <a href="https://www.facebook.com/p/Fruitland-Freshie-Co-61590913802650/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="facebook-link">
+                            Find Us on Facebook!
+                        </a>
+                    </div>
+                </div>
+            </footer>
+    </div>
+</body>
+</html>
