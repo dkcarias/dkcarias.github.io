@@ -349,7 +349,7 @@ footer a:focus-visible {
 
 .hero-image {
     min-height: 320px;
-    background-image: url("images.jpg");
+    background-image: url("Pile-of-Freshies.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1004,6 +1004,431 @@ footer a:focus-visible {
 
     .contact-facebook {
         padding: 1.5em 1em;
+    }
+}
+
+/* Freshies Introduction */
+
+.freshie-intro {
+    max-width: 900px;
+    margin: 2.5em auto !important;
+    padding: 2.5em 3em;
+    text-align: center;
+    background-color: #FFF0E9;
+    border: 2px solid #F6A6B8;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 #F5C84C;
+}
+
+.freshie-intro h2 {
+    color: #E9255D;
+    font-size: 2.4em;
+    margin: 0 0 0.6em;
+}
+
+.freshie-intro p {
+    color: #555555;
+    font-size: 1.1em;
+    line-height: 1.8;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+
+/* Freshie Pricing */
+
+.freshie-pricing {
+    max-width: 1100px;
+    margin: 3em auto !important;
+    padding: 2em;
+    text-align: center;
+}
+
+.freshie-pricing h2,
+.scents-section > h2,
+.colors-section h2 {
+    color: #E9255D;
+    font-size: 2.3em;
+    margin: 0 0 0.6em;
+}
+
+.freshie-pricing > p,
+.scents-section > p,
+.colors-section > p {
+    color: #555555;
+    font-size: 1.05em;
+    line-height: 1.8;
+    max-width: 750px;
+    margin: 0 auto 2em;
+}
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    margin: 2em auto;
+}
+
+.pricing-card {
+    background-color: #FFF0E9;
+    border: 2px solid #F6A6B8;
+    border-radius: 22px;
+    padding: 2em;
+    box-shadow: 4px 4px 0 #F5C84C;
+    transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+}
+
+.pricing-card h3 {
+    color: #E9255D;
+    font-size: 1.5em;
+    margin: 0 0 0.4em;
+}
+
+.pricing-card .price {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #28561A;
+    margin: 0.2em 0;
+}
+
+.pricing-card p:not(.price) {
+    color: #555555;
+    line-height: 1.7;
+}
+
+.freshie-placeholder {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    height: 350px;
+    object-fit: cover;
+    margin: 2em auto;
+    border: 5px solid #F6A6B8;
+    border-radius: 22px;
+    box-shadow: 5px 5px 0 #F5C84C;
+}
+
+
+/* Available Scents */
+
+.scents-section {
+    max-width: 1150px;
+    margin: 4em auto !important;
+    padding: 3em 2em;
+    text-align: center;
+}
+
+.scents-section > h2 {
+    margin-bottom: 0.5em;
+}
+
+.scent-category {
+    background-color: #FFF0E9;
+    border: 2px solid #F6A6B8;
+    border-radius: 22px;
+    padding: 2em;
+    margin: 2.5em auto !important;
+    box-shadow: 4px 4px 0 #F5C84C;
+}
+
+.scent-category h3 {
+    color: #E9255D;
+    font-size: 1.8em;
+    margin: 0 0 1.3em;
+}
+
+.scent-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2em;
+    text-align: left;
+}
+
+.scent-item {
+    background-color: #FBF8E9;
+    border: 1px solid #F6A6B8;
+    border-radius: 15px;
+    padding: 1.2em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scent-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 3px 3px 0 #F5C84C;
+}
+
+.scent-item h4 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #28561A;
+    margin: 0 0 0.5em;
+}
+
+.scent-item p {
+    color: #555555;
+    font-size: 0.95em;
+    line-height: 1.7;
+    margin: 0;
+}
+
+
+/* Seasonal Scents */
+
+.seasonal-scents {
+    background-color: #FFF0E9;
+    border-color: #F5C84C;
+}
+
+.seasonal-scents h3 {
+    color: #28561A;
+}
+
+.seasonal-note {
+    color: #555555;
+    line-height: 1.7;
+    margin: -0.5em auto 1.5em;
+    max-width: 700px;
+}
+
+
+/* Limited Availability */
+
+.limited-scents {
+    background-color: #C2DFAE;
+    border-color: #8FB77D;
+    box-shadow: 4px 4px 0 #F5C84C;
+}
+
+.limited-scents h3 {
+    color: #28561A;
+}
+
+.limited-scents > p {
+    color: #28561A;
+    line-height: 1.7;
+}
+
+.limited-scents .scent-item {
+    background-color: #FBF8E9;
+    border-color: #8FB77D;
+    }
+
+
+/* Available Colors */
+
+.colors-section {
+    max-width: 1100px;
+    margin: 4em auto !important;
+    padding: 3em 2em;
+    background-color: #FFF0E9;
+    border: 2px solid #F6A6B8;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.color-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5em;
+    text-align: left;
+    max-width: 900px;
+    margin: 2em auto 0;
+}
+
+.color-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.color-list li {
+    background-color: #FBF8E9;
+    color: #28561A;
+    border: 1px solid #C2DFAE;
+    border-radius: 12px;
+    padding: 0.8em 1em;
+    margin-bottom: 0.7em;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.color-list li:hover {
+    background-color: #C2DFAE;
+    transform: translateX(4px);
+}
+
+
+/* Customization Section */
+
+.customization-section {
+    max-width: 950px;
+    margin: 4em auto !important;
+    padding: 3em 2em;
+    background-color: #C2DFAE;
+    border: 2px solid #8FB77D;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 5px 5px 0 #F5C84C;
+}
+
+.customization-section h2 {
+    color: #28561A;
+    font-size: 2.4em;
+    margin: 0 0 0.6em;
+}
+
+.customization-section p {
+    color: #28561A;
+    font-size: 1.05em;
+    line-height: 1.8;
+    max-width: 750px;
+    margin: 1em auto;
+}
+
+.customization-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.freshie-button {
+    display: inline-block;
+    background-color: #E9255D;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    padding: 0.9em 1.8em;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.freshie-button:hover {
+    background-color: #28561A;
+    color: #FFFFFF;
+    transform: translateY(-3px);
+}
+
+.facebook-button {
+    background-color: #FBF8E9;
+    color: #28561A;
+    border: 2px solid #8FB77D;
+}
+
+.facebook-button:hover {
+    background-color: #E9255D;
+    color: #FFFFFF;
+}
+
+
+/* Freshies Keyboard Accessibility */
+
+.freshie-page a:focus-visible {
+    outline: 3px solid #28561A;
+    outline-offset: 4px;
+}
+
+
+/* Freshies Tablet Layout */
+
+@media (max-width: 800px) {
+
+    .pricing-container {
+        gap: 1.2em;
+    }
+
+    .scent-list {
+        grid-template-columns: 1fr;
+    }
+
+    .color-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* Freshies Mobile Layout */
+
+@media (max-width: 599px) {
+
+    .freshie-intro {
+        padding: 2em 1.2em;
+        margin: 1.5em auto !important;
+    }
+
+    .freshie-intro h2,
+    .freshie-pricing h2,
+    .scents-section > h2,
+    .colors-section h2 {
+        font-size: 1.9em;
+    }
+
+    .freshie-pricing {
+        padding: 1.5em 0.5em;
+    }
+
+    .pricing-container {
+        grid-template-columns: 1fr;
+        gap: 1.5em;
+    }
+
+    .pricing-card {
+        padding: 1.5em;
+    }
+
+    .freshie-placeholder {
+        height: 250px;
+    }
+
+    .scents-section {
+        padding: 2em 0.5em;
+    }
+
+    .scent-category {
+        padding: 1.5em 1em;
+        margin: 2em auto !important;
+    }
+
+    .scent-category h3 {
+        font-size: 1.5em;
+    }
+
+    .scent-list {
+        grid-template-columns: 1fr;
+    }
+
+    .colors-section {
+        padding: 2em 1em;
+    }
+
+    .color-list {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .customization-section {
+        padding: 2em 1.2em;
+    }
+
+    .customization-section h2 {
+        font-size: 1.9em;
+    }
+
+    .customization-links {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .freshie-button {
+        text-align: center;
     }
 }
 
