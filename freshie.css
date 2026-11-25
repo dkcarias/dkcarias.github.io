@@ -1061,9 +1061,8 @@ footer a:focus-visible {
 }
 
 .pricing-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2em;
+    display: flex;
+    justify-content: center;
     margin: 2em auto;
 }
 
@@ -1072,6 +1071,8 @@ footer a:focus-visible {
     border: 2px solid #F6A6B8;
     border-radius: 22px;
     padding: 2em;
+    width: 100%;
+    max-width: 500px;
     box-shadow: 4px 4px 0 #F5C84C;
     transition: transform 0.3s ease;
 }
@@ -1371,11 +1372,6 @@ footer a:focus-visible {
 
     .freshie-pricing {
         padding: 1.5em 0.5em;
-    }
-
-    .pricing-container {
-        grid-template-columns: 1fr;
-        gap: 1.5em;
     }
 
     .pricing-card {
